@@ -130,6 +130,7 @@
     <ClCompile Include="1차원배열.c" />
     <ClCompile Include="2차원배열.c" />
     <ClCompile Include="2차원배열_1.c" />
+    <ClCompile Include="응용.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
