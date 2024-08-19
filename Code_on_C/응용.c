@@ -2,24 +2,46 @@
 #include<stdio.h>
 #include<string.h>
 
+//int main(void)
+//{
+//	int year, month, day, birth;
+//
+//	scanf("%d", &birth);
+//
+//	day = birth % 100;
+//	month = (birth / 100) % 100;
+//	year = month / 100;
+//
+//	if (month >= 3 && month <= 5)
+//		printf("당신의 생일은 봄입니다.");
+//	else if (month >= 6 && month <= 8)
+//		printf("당신의 생일은 여름입니다.");
+//	else if (month >= 9 && month <= 11)
+//		printf("당신의 생일은 가을입니다.");
+//	else
+//		printf("당신의 생일은 겨울입니다.");
+//
+//	return 0; // 1096 내 생일의 계절은?
+//}
+
 int main(void)
 {
-	int year, month, day, birth;
+	int i, n, sum = 0;
+	
+	scanf("%d", &n);
 
-	scanf("%d", &birth);
+	if (n % 2 == 0) {
+		printf("입력한 숫자는 짝수입니다.\n");
+		for (i = 0; i <= n; i += 2)
+			sum += i;
+		printf("짝수의 합은 %d입니다.", sum);
+	}
+	else {
+		printf("입력한 숫자는 홀수입니다.\n");
+		for (i = 1; i <= n; i += 2)
+			sum += i;
+		printf("홀수의 합은 %d입니다.", sum);
+	}
 
-	day = birth % 100;
-	month = (birth / 100) % 100;
-	year = month / 100;
-
-	if (month >= 3 && month <= 5)
-		printf("당신의 생일은 봄입니다.");
-	else if (month >= 6 && month <= 8)
-		printf("당신의 생일은 여름입니다.");
-	else if (month >= 9 && month <= 11)
-		printf("당신의 생일은 가을입니다.");
-	else
-		printf("당신의 생일은 겨울입니다.");
-
-	return 0; // 1096 내 생일의 계절은?
+	return 0; // 1097 홀수 또는 짝수 합 구하기
 }
