@@ -24,24 +24,45 @@
 //	return 0; // 1096 내 생일의 계절은?
 //}
 
+//int main(void)
+//{
+//	int i, n, sum = 0;
+//	
+//	scanf("%d", &n);
+//
+//	if (n % 2 == 0) {
+//		printf("입력한 숫자는 짝수입니다.\n");
+//		for (i = 0; i <= n; i += 2)
+//			sum += i;
+//		printf("짝수의 합은 %d입니다.", sum);
+//	}
+//	else {
+//		printf("입력한 숫자는 홀수입니다.\n");
+//		for (i = 1; i <= n; i += 2)
+//			sum += i;
+//		printf("홀수의 합은 %d입니다.", sum);
+//	}
+//
+//	return 0; // 1097 홀수 또는 짝수 합 구하기
+//}
+
 int main(void)
 {
-	int i, n, sum = 0;
-	
+	int i, j, n, num = 1;
+
+	printf("숫자 피라미드를 만들것입니다.\n");
+	printf("몇 단인가요?");
 	scanf("%d", &n);
 
-	if (n % 2 == 0) {
-		printf("입력한 숫자는 짝수입니다.\n");
-		for (i = 0; i <= n; i += 2)
-			sum += i;
-		printf("짝수의 합은 %d입니다.", sum);
+	for (i = 1; i <= n; i++) {
+		for (j = n; j > i; j--) {
+			printf(" ");
+		}
+		for (j = 1; j < i*2; j++) {
+			printf("%d", num);
+		}
+		num++;
+		printf("\n");
 	}
-	else {
-		printf("입력한 숫자는 홀수입니다.\n");
-		for (i = 1; i <= n; i += 2)
-			sum += i;
-		printf("홀수의 합은 %d입니다.", sum);
-	}
-
-	return 0; // 1097 홀수 또는 짝수 합 구하기
+	return 0; // 1098 숫자 피라미드 만들기
 }
