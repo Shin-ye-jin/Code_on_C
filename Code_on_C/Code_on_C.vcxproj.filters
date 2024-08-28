@@ -30,5 +30,8 @@
     <ClCompile Include="응용%281100-1103%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="응용.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
