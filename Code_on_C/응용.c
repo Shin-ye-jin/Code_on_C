@@ -37,3 +37,49 @@
 //	}
 //	return 0; // 1105 도어락을 열어라
 //}
+
+//int main(void)
+//{
+//	int re = 10000;
+//	int a = 2000, b = 1500, c = 1000;
+//	int i, j, z, sum = 0;
+//
+//	for (i = 1; i <= 4; i++) {
+//		for (j = 1; j <= 4; j++) {
+//			for (z = 1; z <= 4; z++) {
+//				if ((a * i + b * j + c * z) == re) {
+//					printf("%d %d %d\n", i, j, z);
+//				}
+//			}
+//		}
+//	}
+//	return 0; // 1106 빼빼로데이 고백 대작전
+//}
+
+//int f(int n) {
+//	if (n == 1) return 1;
+//	else {
+//		return n * f(n - 1);
+//	}
+//}
+//
+//int main(void) {
+//	int n;
+//	scanf("%d", &n);
+//	printf("%d", f(n));
+//	return 0; // 1107 팩토리얼 계산
+//}
+
+//int main(void)
+//{
+//	int a, b, c;
+//	scanf("%d %d %d", &a, &b, &c);
+//
+//	if (a * a + b * b == c * c) {
+//		printf("직각삼각형");
+//	}
+//	else {
+//		printf("직각삼각형 아님");
+//	}
+//	return 0; // 1108 직각삼각형 판별기
+//}
