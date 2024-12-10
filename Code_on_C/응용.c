@@ -83,3 +83,35 @@
 //	}
 //	return 0; // 1108 직각삼각형 판별기
 //}
+
+//int main(void)
+//{
+//	int n1, n2, n3, n4, sum = 0;
+//	scanf("%d %d %d %d", &n1, &n2, &n3, &n4);
+//
+//	sum = n1 + n2 + n3 + n4;
+//
+//	if (sum == 0) printf("모");
+//	else if (sum == 1)printf("도");
+//	else if (sum == 2)printf("개");
+//	else if (sum == 3)printf("걸");
+//	else if (sum == 4)printf("윷");
+//	return 0; // 1109 윷놀이
+//}
+
+//int main(void)
+//{
+//	char a;
+//	int n;
+//
+//	scanf("%c", &a);
+//	scanf("%d", &n);
+//
+//	if (a == 'T') {
+//		printf("%d", 15 * n);
+//	}
+//	else {
+//		printf("%d", 5 * n);
+//	}
+//	return 0; // 1110 베이킹 용량 계산하기
+//}
