@@ -28,3 +28,47 @@
 //	printf("%d", max);
 //	return 0; // 1112 우리 반에서 키가 가장 큰 학생은?
 //}
+
+
+//int main(void)
+//{
+//	int length, i;
+//	char str[50];
+//	char* strN;
+//	printf("변환 시킬 숫자를 입력하세요 : ");
+//	scanf("%s", str);
+//	length = strlen(str);
+//	strN = str;
+//	printf("변환 결과 : ");
+//	
+//	for (i = length; i > 0;) {
+//		printf("%c", *strN++);
+//		i--;
+//		if (i > 0 && (i % 3) == 0) {
+//			printf(",");
+//		}
+//	}
+//
+//	return 0; // 1113 금액 입력 시 천 단위 콤마 찍기 !!
+//}
+#include<string.h>
+//int main(void)
+//{
+//	int length, i;
+//	char str[50];
+//	scanf("%s", str);
+//	length = strlen(str);
+//
+//	for (i = 0; i < length / 2; i++) {
+//		if (str[i] == str[length - i - 1]) {
+//			if (i == (length / 2 - 1)) {
+//				printf("회문임!");
+//			}
+//		}
+//		else {
+//			printf("회문이 아님!");
+//			break;
+//		}
+//	}
+//	return 0; // 1114 기러기 토마토 스위스 인도인 별똥별 우영우, 회문!
+//}
