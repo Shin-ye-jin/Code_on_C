@@ -4,71 +4,27 @@
 
 //int main(void)
 //{
-//	int time, h, m;
-//	scanf("%d", &time);
+//	int n[30];
+//	int cnt = 0, i;
 //
-//	h = time / 60;
-//	m = time % 60;
-//	
-//	printf("%d시간 %d분", h, m);
-//	return 0; // 1111 시간 변환하기
+//	for (i = 0; i < 30; i++) {
+//		scanf("%d", &n[i]);
+//		if (n[i] == 1) cnt++;
+//	}
+//
+//	if (cnt > 15) {
+//		printf("A조입니다.");
+//	}
+//	else {
+//		printf("B조입니다.");
+//	}
+//	return 0; // 1115 체육대회 조 편성
 //}
 
 //int main(void)
 //{
-//	int he, max = 100, i;
-//
-//	for (i = 0; i < 5; i++) {
-//		scanf("%d", &he);
-//		if (max < he) {
-//			max = he;
-//		}
-//	}
-//
-//	printf("%d", max);
-//	return 0; // 1112 우리 반에서 키가 가장 큰 학생은?
-//}
-
-
-//int main(void)
-//{
-//	int length, i;
-//	char str[50];
-//	char* strN;
-//	printf("변환 시킬 숫자를 입력하세요 : ");
-//	scanf("%s", str);
-//	length = strlen(str);
-//	strN = str;
-//	printf("변환 결과 : ");
-//	
-//	for (i = length; i > 0;) {
-//		printf("%c", *strN++);
-//		i--;
-//		if (i > 0 && (i % 3) == 0) {
-//			printf(",");
-//		}
-//	}
-//
-//	return 0; // 1113 금액 입력 시 천 단위 콤마 찍기 !!
-//}
-#include<string.h>
-//int main(void)
-//{
-//	int length, i;
-//	char str[50];
-//	scanf("%s", str);
-//	length = strlen(str);
-//
-//	for (i = 0; i < length / 2; i++) {
-//		if (str[i] == str[length - i - 1]) {
-//			if (i == (length / 2 - 1)) {
-//				printf("회문임!");
-//			}
-//		}
-//		else {
-//			printf("회문이 아님!");
-//			break;
-//		}
-//	}
-//	return 0; // 1114 기러기 토마토 스위스 인도인 별똥별 우영우, 회문!
+//	char name[20], blood[10], ho[20];
+//	scanf("%s %s %s", &name, &blood, &ho); // 문자열은 배열로 해서 입력 받는다.
+//	printf("저의 이름은 %s 이고, 저의 혈액형은 %s 형이며, 저의 취미는 %s입니다.", name, blood, ho);
+//	return 0; // 1116 입학식 자기소개
 //}
