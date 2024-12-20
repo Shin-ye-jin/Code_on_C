@@ -59,3 +59,45 @@
 //	}
 //	return 0; // 1119 얼마나 저렴할까?
 //}
+
+//int main(void)
+//{
+//	int n, sum = 0, i;
+//	scanf("%d", &n);
+//
+//	for (i = 1; i <= n; i++) {
+//		if (i % 2 == 0) {
+//			sum += i;
+//			if (sum > n) {
+//				printf("%d", i);
+//				break;
+//			}
+//		}
+//	}
+//	return 0; // 1120 나보다 큰 수
+//}
+
+//int main(void)
+//{
+//	int n, i = 0, j;
+//	int num[100];
+//	scanf("%d", &n);
+//
+//	while (n > 0) {
+//		num[i] = n % 5;
+//		n = n / 5;
+//		i++;
+//	}
+//	if (n > 0) {
+//		num[i] = n;
+//		for (j = i; j >= 0; j--) {
+//			printf("%d", num[j]);
+//		}
+//	}
+//	else {
+//		for (j = i - 1; j >= 0; j--) {
+//			printf("%d", num[j]);
+//		}
+//	}
+//	return 0; // 1122 5진수 계산기
+//}
